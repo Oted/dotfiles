@@ -87,8 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias kubeawctl='kubectl --context loveos  --namespace attractiveworld'
-alias composer="php /usr/local/bin/composer.phar"
+
 alias gpom="git push -u origin master"
 alias ,="ls -la"
 alias ,,="git status"
@@ -102,5 +101,4 @@ bindkey '\e\e[D' backward-word
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
-export NVM_DIR="/Users/oandreasson/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
