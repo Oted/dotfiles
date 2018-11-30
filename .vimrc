@@ -87,3 +87,5 @@ endfunction
 
 colorscheme distinguished
 hi Normal ctermbg=none
+
+let NERDTreeShowHidden=1
